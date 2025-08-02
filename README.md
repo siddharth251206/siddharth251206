@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Siddharth Sheth</h1>
-<h3 align="center">An Passionate Web Developer, currently in 2nd year CSE at SVNIT Surat.</h3>
+<h3 align="center">A Passionate Web Developer, currently in 2nd year CSE at SVNIT Surat.</h3>
 
 - 🔭 I’m currently learning *AI and advanced machine learning*
 
