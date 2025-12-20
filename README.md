@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently learning *AI and advanced machine learning*
 
-- 💻 I’ve recently completed web development project [CRICARENA](https://github.com/Pratham722007/cricarena)
+- 💻 I’ve recently completed web development project [CRICARENA](https://github.com/siddharth251206/cricarena)
 
 - 💬 Ask me about *Django,React,HTML,CSS and AI projects*
 
