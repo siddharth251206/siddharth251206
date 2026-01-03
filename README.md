@@ -134,7 +134,7 @@ interests: ["Problem Solving", "Open Source", "Hackathons"]
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5)](https://www.linkedin.com/in/siddharth-sheth-007873319)
 [![Gmail](https://img.shields.io/badge/Gmail-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836)](mailto:shsheth2006@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-667eea?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=667eea)](siddharth-sheth.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-667eea?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=667eea)](https://siddharth-sheth.vercel.app)
 
 <br/>
 
