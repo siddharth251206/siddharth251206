@@ -263,12 +263,21 @@ A C++ simulation using SFML graphics to model vehicle flow, congestion, and inte
 
 <br/>
 
-<!-- Trophies -->
+<!-- Achievement Badges (replaces dead github-profile-trophy) -->
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=siddharth251206&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7" alt="Trophies"/>
+  <img src="https://img.shields.io/github/stars/siddharth251206?style=for-the-badge&color=f7931a&labelColor=0d1117&logo=github&label=Total%20Stars" alt="Stars"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Repos-15+-007EA7?style=for-the-badge&labelColor=0d1117&logo=github&logoColor=white" alt="Repos"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/🏆_Hackathon_Wins-1-f7931a?style=for-the-badge&labelColor=0d1117" alt="Wins"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/🏅_Finalist-4x-764ba2?style=for-the-badge&labelColor=0d1117" alt="Finalist"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Contributions-534+-00A8E8?style=for-the-badge&labelColor=0d1117&logo=github&logoColor=white" alt="Contributions"/>
 </div>
 
 <br/>
+
 
 ## 🏏 Competitive Programming
 
@@ -357,56 +366,6 @@ Whether you want to collaborate, discuss an idea, or just say hi — my inbox is
 </div>
 
 <br/>
-
-<details>
-<summary><strong>🐍 How to enable the Snake Animation</strong></summary>
-<br/>
-
-The snake animation requires a one-time GitHub Action setup in your `siddharth251206/siddharth251206` repo:
-
-1. **Create** `.github/workflows/snake.yml` with this content:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *" # Runs daily at midnight UTC
-  workflow_dispatch: # Allows manual trigger
-  push:
-    branches: [main]
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    permissions:
-      contents: write
-    steps:
-      - name: Generate Snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Push to output branch
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
-          commit_message: "Update snake [skip ci]"
-```
-
-2. Go to **Settings → Actions → General → Workflow permissions** → set to **Read and write**
-3. Go to **Actions tab** → select "Generate Snake" → click **Run workflow**
-4. Done! The snake will auto-update daily.
-
-</details>
 
 <div align="center">
 
